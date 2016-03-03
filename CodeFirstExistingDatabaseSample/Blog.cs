@@ -8,11 +8,11 @@ namespace CodeFirstExistingDatabaseSample
 
     public partial class Blog
     {
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Blog()
-        {
-            Posts = new HashSet<Post>();
-        }
+        //[System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        //public Blog()
+        //{
+        //    Posts = new HashSet<Post>();
+        //}
 
         public int BlogId { get; set; }
 

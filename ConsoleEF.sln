@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleEF", "ConsoleEF\ConsoleEF.csproj", "{E33A2CD7-66BB-4919-85A2-8584EFC89555}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstExistingDatabaseSample", "CodeFirstExistingDatabaseSample\CodeFirstExistingDatabaseSample.csproj", "{2205A7AA-177A-4144-9CC9-A1B1A1DB6F43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstSample", "CodeFirstSample\CodeFirstSample.csproj", "{66862958-B093-4CD5-A78F-F581650A6F48}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E33A2CD7-66BB-4919-85A2-8584EFC89555}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E33A2CD7-66BB-4919-85A2-8584EFC89555}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E33A2CD7-66BB-4919-85A2-8584EFC89555}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E33A2CD7-66BB-4919-85A2-8584EFC89555}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2205A7AA-177A-4144-9CC9-A1B1A1DB6F43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2205A7AA-177A-4144-9CC9-A1B1A1DB6F43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2205A7AA-177A-4144-9CC9-A1B1A1DB6F43}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -35,5 +37,31 @@ namespace CodeFirstExistingDatabaseSample
                 Console.ReadKey();
             } 
         }
+    }
+
+    public class User
+    {
+        
+        [Key]
+        public string WeiXinOpenID { get; set; }
+        [Index(IsUnique=true)]
+        public int UserID { get; set; }
+        public string Name { get; set; }
+        public string MobileNumber { get; set; }
+        public string EmailAddress { get; set; }
+        public bool IsActive { get; set; }
+    
+    }
+
+    public class Oauth2Token
+    {
+        [Key]
+        public int OTokenID { get; set; }
+        public string WeiXinOpenID { get; set; }
+        public string AccessToken { get; set; }
+        public string RefreshToken { get; set; }
+        public int ExpiresIn { get; set; }
+        public string Scope { get; set; }
+        public virtual User User { get; set; }
     }
 }
