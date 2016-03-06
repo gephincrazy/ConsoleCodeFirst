@@ -1,11 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstExistingDatabaseSample", "CodeFirstExistingDatabaseSample\CodeFirstExistingDatabaseSample.csproj", "{2205A7AA-177A-4144-9CC9-A1B1A1DB6F43}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirstSample", "CodeFirstSample\CodeFirstSample.csproj", "{66862958-B093-4CD5-A78F-F581650A6F48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQSample", "LINQSample\LINQSample.csproj", "{A345A48F-FFC5-4C36-AD4A-7DDB4E826932}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A6EF96B7-8822-430C-952F-7835BBCA0EE2}"
+	ProjectSection(SolutionItems) = preProject
+		DeleteBinObj.ps1 = DeleteBinObj.ps1
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +28,10 @@ Global
 		{66862958-B093-4CD5-A78F-F581650A6F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66862958-B093-4CD5-A78F-F581650A6F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66862958-B093-4CD5-A78F-F581650A6F48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A345A48F-FFC5-4C36-AD4A-7DDB4E826932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A345A48F-FFC5-4C36-AD4A-7DDB4E826932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A345A48F-FFC5-4C36-AD4A-7DDB4E826932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A345A48F-FFC5-4C36-AD4A-7DDB4E826932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
