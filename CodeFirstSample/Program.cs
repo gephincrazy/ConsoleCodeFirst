@@ -89,7 +89,7 @@ namespace CodeFirstSample
             //            .Configure(x => x.IsKey().HasColumnOrder(2));
         }
 
-
+        
     }
 
 }
